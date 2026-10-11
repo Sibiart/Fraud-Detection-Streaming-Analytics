@@ -1,0 +1,61 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local database files and exports
+*.sqlite3
+*.db
+*.sqlitedb
+
+# Data files: keep large or restricted datasets out of Git by default
+dataset/*
+!dataset/README.md
+*.csv
+*.xlsx
+*.xls
+
+# Generated local outputs
+output/
+outputs/
+temp/
+tmp/
+
+# Power BI temporary/lock files
+~$*.pbix
+*.pbit.lock
+# Large Power BI reports
+*.pbix
+
+# Note:
+
+# Check the dataset license before sharing data publicly.
