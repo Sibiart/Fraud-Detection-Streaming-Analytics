@@ -4,7 +4,8 @@ select sum(Amount) as tot_transacation_amount,
 avg(Amount) as avg_transacation_amount,
 min(amount) as minimum_transcation_amt,
 max(amount) as maximum_transcation_amt 
-from creditcard; 
+from creditcard;
+ 
 select count(case when class = 1 then 1 end)*100.00/count(*) as Fraud_percentage from creditcard;
 
 SELECT
