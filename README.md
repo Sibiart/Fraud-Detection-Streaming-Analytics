@@ -4,6 +4,9 @@ A data analytics portfolio project that uses **Python, MySQL, and Power BI** to 
 
 > **Important:** This project uses threshold-based rules and a simulated batch workflow. A flagged transaction is an alert for review, not proof of fraud. The notebook processes stored data in batches; it does not consume a live payment stream.
 
+<img width="1080" height="1080" alt="Fraud_Detection_png" src="https://github.com/user-attachments/assets/93dbb108-e63e-42e8-80cc-bcf605b17d9c" />
+
+
 ## Dashboard Preview
 
 The Power BI dashboard presents transaction patterns, rule-based fraud detection results, and simulated batch-processing metrics.
