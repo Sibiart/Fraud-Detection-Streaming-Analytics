@@ -86,7 +86,7 @@ Fraud-Detection-Streaming-Analytics/
 ### Power BI Dashboard
 - [View Dashboard Screenshots](./PowerBI/Screenshots/)
 - [Download Power BI Dashboard](./PowerBI/Fraud_Detection_Dashboard.pbix)
-- [View Interactive Dashboard](ADD_YOUR_PUBLISHED_POWER_BI_LINK_HERE)
+- [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/d056955d-14fd-43e5-9acc-3cfb163b1d59?ctid=406a6e9a-2c6d-4cd4-b5fc-299c924534e7&pbi_source=linkShare&bookmarkGuid=1cd8bb93-14d6-453a-9582-706c35f055f5)
 
 ### Python & Machine Learning
 - [View Python Notebook](./Python/fraud_detection.ipynb)
