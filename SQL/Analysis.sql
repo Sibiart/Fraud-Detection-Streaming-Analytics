@@ -19,6 +19,7 @@ GROUP BY Class
 ORDER BY Class;
 
 
+
 -- 2. Overall transaction amount statistics
 SELECT
     SUM(Amount) AS total_transaction_amount,
