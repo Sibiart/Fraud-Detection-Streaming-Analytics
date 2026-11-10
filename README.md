@@ -81,7 +81,24 @@ Fraud-Detection-Streaming-Analytics/
 ├── README.md
 └── .gitignore
 ```
+## Project Evidence & Resources
 
+### Power BI Dashboard
+- [View Dashboard Screenshots](./PowerBI/Screenshots/)
+- [Download Power BI Dashboard](./PowerBI/Fraud_Detection_Dashboard.pbix)
+- [View Interactive Dashboard](ADD_YOUR_PUBLISHED_POWER_BI_LINK_HERE)
+
+### Python & Machine Learning
+- [View Python Notebook](./Python/fraud_detection.ipynb)
+- [Random Forest Model](./Python/fraud_detection_model.pkl)
+- [Logistic Regression Model](./Python/logistic_regression_model.pkl)
+
+### SQL
+- [View SQL Queries](./SQL/database_queries.sql)
+
+### Dataset
+- [Original Dataset Source](www.kaggle.com)
+- 
 ## Important Note
 
 This project uses a publicly available credit card fraud dataset and simulated batch processing. The predictions represent holdout test-set evaluation, not a live banking fraud detection service.
