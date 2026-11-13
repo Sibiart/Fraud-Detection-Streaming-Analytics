@@ -98,7 +98,26 @@ Fraud-Detection-Streaming-Analytics/
 
 ### Dataset
 - [Original Dataset Source](www.kaggle.com)
-- 
+
+  
+### Model Explainability Using SHAP
+
+Integrated SHAP (SHapley Additive exPlanations) to understand the Random Forest fraud detection model.
+
+**Analysis performed:**
+- Global feature importance using SHAP bar plots.
+- Feature contribution analysis using beeswarm plots.
+- Individual transaction explanations using waterfall plots.
+- Probability-based explanations for the fraud class.
+
+**Key observations:**
+- V12, V14, V4, V3, V11, and V10 were among the most influential features in the initial 200-transaction sample.
+- Individual explanations showed how feature contributions moved predictions toward or away from the fraud class.
+
+**Tools:** Python, SHAP, Scikit-learn, Matplotlib, Pandas.
+
+*Note: SHAP explanations describe model behavior; they do not establish that a transaction is genuinely fraudulent.*
+
 ## Important Note
 
 This project uses a publicly available credit card fraud dataset and simulated batch processing. The predictions represent holdout test-set evaluation, not a live banking fraud detection service.
